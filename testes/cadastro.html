@@ -12,36 +12,26 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    <title>Cadastro</title>
 </head>
 <body>
     <div id="loader" class="loader"></div>
-
-    <div class="containerLogin">
+    <div class="containerLogin"><br>
         <div class="box">
             <p class="h5" style="
             color: #fff;
             justify-content: center;
             display: flex;
-            padding: 10px;">Login</p>
+            padding: 10px;margin-top: 15px;">Cadastrar como:</p><br>
             <div class="form-group">
-            <label style="color:#fff"></label>
-            <input type="text" class="form-control inputLogin"  id="usuario" placeholder="E-mail">
+            <label style="color:#fff"></label><br>
+            <button type="button" style="border-radius: 15px;width: 100%;" class="btn btn-primary btn-sm" >Passageiro</button>
           </div>
           <div class="form-group">
-            <label style="color:#fff"></label>
-            <input type="password" class="form-control inputLogin" id="senha"  placeholder="Senha">
+            <label style="color:#fff"></label><br>
+            <button type="button" style="border-radius: 15px;width: 100%;" class="btn btn-primary btn-sm" >Taxista</button>
           </div>
-            <div class="form-group mx-auto" style="justify-content: center;display: flex;padding: 10px;"> 
-                <button type="button" style="border-radius: 15px;width: 50%;" class="btn btn-primary btn-sm" onclick="Login(usuario.value,senha.value)" >Entrar</button>
-    
-            </div>
-            <div class="mt-4">
-                <div class="d-flex justify-content-center links"style="color:#fff">
-                    <button type="button" style="border-radius: 15px;width: 70%;" class="btn btn-primary btn-sm" onclick="cadastro()" >Cadastre-se</button>
-                </div>
-                
-            </div>
+           
         </div>
     </div>
     <script src="scripts.js"></script>

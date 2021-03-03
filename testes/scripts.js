@@ -36,10 +36,15 @@ var users = [
       }
   }
   
-  
   function VerifyLogin(usuario,senha){
   
       index = users.findIndex(x => x.usuario==usuario && x.senha==senha);
       return index != -1;
+  }
+  function cadastro(){
+    setTimeout(function(){
+      window.location.href = './cadastro.html';
+  }, 500);
+    
   }
   
