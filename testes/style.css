@@ -20,6 +20,17 @@
     background-Color: #131819;
     opacity:0.7
         }
+        .boxMotorista {
+            width: 70%;
+            height: 80%;
+            background: #fff;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            box-shadow: 1px 5px 5px 5px black;
+        padding: 15px;
+        background-Color: #131819;
+        opacity:0.7
+            }
 
     .inputLogin{
         border-radius: 15px;

@@ -44,7 +44,18 @@ var users = [
   function cadastro(){
     setTimeout(function(){
       window.location.href = './cadastro.html';
-  }, 500);
+  }, 200);
     
+  }
+
+  function cadastrarPassageiro(){
+    setTimeout(function(){
+      window.location.href = './cadastroPassageiro.html';
+  }, 200);
+  }
+  function cadastrarMotorista(){
+    setTimeout(function(){
+      window.location.href = './cadastroMotorista.html';
+  }, 200);
   }
   
