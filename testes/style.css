@@ -45,4 +45,19 @@
         z-index: 9999;
         background: url('http://i.imgur.com/zAD2y29.gif') 50% 50% no-repeat white;
     }
-    
+
+
+    /* tela lista de cards */
+     .marcadorCard {
+    border-radius: 15px;
+      border-bottom: 1px solid #f94646;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+    .cardItem{
+        border-radius: 13px;
+        border: 1px solid gold
+    }
+    .imageRadius{
+        border-radius: 14px 14px 0px 0px; 
+    }
