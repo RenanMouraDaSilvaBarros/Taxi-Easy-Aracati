@@ -24,12 +24,16 @@ var users = [
     'usuario': 'Fred',
     'senha' :123
   },
+ {
+    'usuario': 'henrique',
+    'senha' :123
+  },
   ]
   
   function Login(usuario,senha){
       if(VerifyLogin(usuario,senha)){
         toastr.success("Login efetuado"); 
-        // window.location.href = './index.html';
+         window.location.href = './taxiListScreen.html';
       }else{
           toastr.error("Informe os valores corretamente!");
          
@@ -59,3 +63,26 @@ var users = [
   }, 200);
   }
   
+  function teste(value){
+  $(valor).click(function(){
+  console.log(valor)
+      //alert($(this).attr('id').checked);
+      $(valor).removeClass('active');
+      
+      var val = parseInt($(this).attr('id'));
+      //console.log(val);
+      
+      $(valor).each(function(){
+          /* checar de o valor clicado é menor ou igual do input atual
+          *  se sim, adicionar classe active
+          */
+          
+          var $input = parseInt($(this).attr('id'));
+          if($input <= val){
+            $(this).addClass('teste');
+          }else{
+          $(this).removeClass('teste');
+          }
+      });
+  })
+}
